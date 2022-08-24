@@ -91,7 +91,7 @@ Functions
 
 ### Overloads
 
-[overloads](https://www.typescriptlang.org/docs/handbook/2/functions.html#function-overloads), 
+[overloads](https://www.typescriptlang.org/docs/handbook/2/functions.html#function-overloads)
 
 
 Type Manipulation
@@ -165,6 +165,8 @@ Classes
 
 [`protected property: Type`](https://www.typescriptlang.org/docs/handbook/2/classes.html#protected)
 
+[`declare property: Type`](https://www.typescriptlang.org/docs/handbook/2/classes.html#type-only-field-declarations)
+
 ### Properties from JS
 
 [`#property: Type`](https://www.typescriptlang.org/docs/handbook/2/classes.html#caveats)
@@ -176,8 +178,6 @@ Classes
 [`static property: Type`](https://www.typescriptlang.org/docs/handbook/2/classes.html#static-members)
 
 [`static {...}`](https://www.typescriptlang.org/docs/handbook/2/classes.html#static-blocks-in-classes)
-
-[`declare property: Type`](https://www.typescriptlang.org/docs/handbook/2/classes.html#type-only-field-declarations)
 
 ### Constructor Parameter Properties
 
