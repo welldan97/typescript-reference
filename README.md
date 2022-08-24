@@ -1,8 +1,6 @@
-# TypeScript Reference for JS developers:<br/>Glossary of keywords, operators, statements and directives
+# TypeScript Reference for JS developers:<br/><br/>Glossary of keywords, operators, statements and directives
 
-
-
-- [TypeScript Reference for JS developers:<br/>Glossary of keywords, operators, statements and directives](#typescript-reference-for-js-developersglossary-of-keywords-operators-statements-and-directives)
+- [TypeScript Reference for JS developers:<br/><br/>Glossary of keywords, operators, statements and directives](#typescript-reference-for-js-developersglossary-of-keywords-operators-statements-and-directives)
   - [Statements](#statements)
   - [Built-in Type Primitives](#built-in-type-primitives)
   - [Complex Types](#complex-types)
@@ -10,10 +8,10 @@
   - [Functions](#functions)
     - [Arguments](#arguments)
     - [Type Guards and Assertion Functions](#type-guards-and-assertion-functions)
-    - [Extension](#extension)
+    - [Overloads](#overloads)
   - [Type Manipulation](#type-manipulation)
     - [Basic](#basic)
-    - [Extension](#extension-1)
+    - [Extension](#extension)
     - [Mapped Types](#mapped-types)
   - [Generics](#generics)
     - [Constrains](#constrains)
@@ -21,12 +19,13 @@
     - [Properties](#properties)
     - [Properties from JS](#properties-from-js)
     - [Constructor Parameter Properties](#constructor-parameter-properties)
-    - [Extension](#extension-2)
+    - [Extension](#extension-1)
     - [Decorators](#decorators)
   - [Utility Types](#utility-types)
   - [Comment Directives](#comment-directives)
     - [Enabling and Disabling Typescript](#enabling-and-disabling-typescript)
     - [References](#references)
+
 
 Statements
 ----------
@@ -51,6 +50,7 @@ Built-in Type Primitives
 [`symbol`](https://www.typescriptlang.org/docs/handbook/symbols.html),
 [`unique symbol`](https://www.typescriptlang.org/docs/handbook/symbols.html#unique-symbol)
 
+
 Complex Types
 -------------
 
@@ -60,6 +60,7 @@ Complex Types
 [`type`](https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#type-aliases),
 [`interface`](https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#interfaces),
 [`enum`](https://www.typescriptlang.org/docs/handbook/enums.html)
+
 
 Type and Interface Properties
 -----------------
@@ -88,10 +89,10 @@ Functions
 
 [`is`](https://www.typescriptlang.org/docs/handbook/2/narrowing.html#using-type-predicates), [`asserts...is`](https://www.typescriptlang.org/docs/handbook/release-notes/typescript-3-7.html#assertion-functions)
 
-### Extension
+### Overloads
 
 [overloads](https://www.typescriptlang.org/docs/handbook/2/functions.html#function-overloads), 
-[generics](https://www.typescriptlang.org/docs/handbook/2/functions.html#generic-functions)
+
 
 Type Manipulation
 -----------------
@@ -110,7 +111,6 @@ Type Manipulation
 [`keyof`](https://www.typescriptlang.org/docs/handbook/2/keyof-types.html),
 
 [`extends Type ? IfTrue : IfFalse`](https://www.typescriptlang.org/docs/handbook/2/conditional-types.html#inferring-within-conditional-types)
-
 
 ### Extension
 
@@ -132,6 +132,7 @@ Type Manipulation
 
 [`[Properties in keyof Type as NewKeyType]: Type[Properties]`](https://www.typescriptlang.org/docs/handbook/2/mapped-types.html#key-remapping-via-as)
 
+
 Generics
 --------
 
@@ -145,12 +146,11 @@ Generics
 
 ### Constrains
 
-
 [`<Type extends OtherType>`](https://www.typescriptlang.org/docs/handbook/2/generics.html#generic-constraints)
-
 
 Classes
 -------
+
 ### Properties
 
 [`property?: Type`](https://www.typescriptlang.org/docs/handbook/2/classes.html#this-based-type-guards)
@@ -202,10 +202,6 @@ Classes
 [`property(@decorator arg: Type) {...}`](https://www.typescriptlang.org/docs/handbook/decorators.html#parameter-decorators)
 
 
-
-public in constructor
-
-
 Utility Types
 -------------
 
@@ -249,8 +245,10 @@ Utility Types
 
 [`Uncapitalize<StringType>`](https://www.typescriptlang.org/docs/handbook/2/template-literal-types.html#uncapitalizestringtype)
 
+
 Comment Directives
 ------------------
+
 ### Enabling and Disabling Typescript
 
 [`// @ts-ignore`](https://www.typescriptlang.org/docs/handbook/release-notes/typescript-2-6.html#suppress-errors-in-ts-files-using--ts-ignore-comments)
