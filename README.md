@@ -1,6 +1,6 @@
-# TypeScript Reference for JS developers:<br/><br/>Glossary of keywords, operators, statements and directives
+# TypeScript Reference for JS developers<br/><br/>Glossary of keywords, operators, statements and directives<br/>
 
-- [TypeScript Reference for JS developers:<br/><br/>Glossary of keywords, operators, statements and directives](#typescript-reference-for-js-developersglossary-of-keywords-operators-statements-and-directives)
+- [TypeScript Reference for JS developers<br/><br/>Glossary of keywords, operators, statements and directives<br/>](#typescript-reference-for-js-developersglossary-of-keywords-operators-statements-and-directives)
   - [Statements](#statements)
   - [Built-in Type Primitives](#built-in-type-primitives)
   - [Complex Types](#complex-types)
