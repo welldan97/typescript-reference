@@ -87,7 +87,9 @@ Functions
 
 ### Type Guards and Assertion Functions
 
-[`is`](https://www.typescriptlang.org/docs/handbook/2/narrowing.html#using-type-predicates), [`asserts...is`](https://www.typescriptlang.org/docs/handbook/release-notes/typescript-3-7.html#assertion-functions)
+[`is`](https://www.typescriptlang.org/docs/handbook/2/narrowing.html#using-type-predicates),
+[`asserts condition`](https://www.typescriptlang.org/docs/handbook/release-notes/typescript-3-7.html#assertion-functions),
+[`asserts value is Type`](https://www.typescriptlang.org/docs/handbook/release-notes/typescript-3-7.html#assertion-functions)
 
 ### Overloads
 
