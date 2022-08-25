@@ -124,11 +124,11 @@ Type Manipulation
 
 [`-readonly [Property in keyof Type]: Type[Property];`](https://www.typescriptlang.org/docs/handbook/2/mapped-types.html#mapping-modifiers)
 
-[`+readonly [Property in keyof Type]: Type[Property];`](https://www.typescriptlang.org/docs/handbook/2/mapped-types.html#mapping-modifiers)
+[`readonly [Property in keyof Type]: Type[Property];`](https://www.typescriptlang.org/docs/handbook/2/mapped-types.html#mapping-modifiers)
 
 [`[Property in keyof Type]-?: Type[Property];`](https://www.typescriptlang.org/docs/handbook/2/mapped-types.html#mapping-modifiers)
 
-[`[Property in keyof Type]+?: Type[Property];`](https://www.typescriptlang.org/docs/handbook/2/mapped-types.html#mapping-modifiers)
+[`[Property in keyof Type]?: Type[Property];`](https://www.typescriptlang.org/docs/handbook/2/mapped-types.html#mapping-modifiers)
 
 [`[Properties in keyof Type as NewKeyType]: Type[Properties]`](https://www.typescriptlang.org/docs/handbook/2/mapped-types.html#key-remapping-via-as)
 
