@@ -259,6 +259,8 @@ Comment Directives
 
 [`// @ts-nocheck`](https://www.typescriptlang.org/docs/handbook/release-notes/typescript-3-7.html#-ts-nocheck-in-typescript-files)
 
+[`// @ts-expect-error`](https://www.typescriptlang.org/docs/handbook/release-notes/typescript-3-9.html#-ts-expect-error-comments)
+
 ### References
 
 [`/// <reference path="..." />`](https://www.typescriptlang.org/docs/handbook/triple-slash-directives.html#-reference-path-)
