@@ -1,5 +1,8 @@
 # TypeScript Reference for JS developers<br/><br/>Glossary of keywords, operators, statements and directives<br/>
 
+[![GitHub](https://shields.io/badge/welldan97-typescript--reference-grey.svg?logo=github&style=for-the-badge&labelColor=black)](https://github.com/welldan97/typescript-reference)
+[![GitHub](https://shields.io/badge/github-pages-blue.svg?logo=github&style=for-the-badge&labelColor=black)](https://welldan97.github.io/typescript-reference/)
+
 - [TypeScript Reference for JS developers<br/><br/>Glossary of keywords, operators, statements and directives<br/>](#typescript-reference-for-js-developersglossary-of-keywords-operators-statements-and-directives)
   - [Statements](#statements)
   - [Built-in Type Primitives](#built-in-type-primitives)
@@ -17,7 +20,7 @@
     - [Constrains](#constrains)
   - [Classes](#classes)
     - [Properties](#properties)
-    - [Properties from JS](#properties-from-js)
+    - [Properties present in JS](#properties-present-in-js)
     - [Constructor Parameter Properties](#constructor-parameter-properties)
     - [Extension](#extension-1)
     - [Decorators](#decorators)
@@ -112,7 +115,7 @@ Type Manipulation
 
 [`typeof`](https://www.typescriptlang.org/docs/handbook/2/typeof-types.html)
 
-[`keyof`](https://www.typescriptlang.org/docs/handbook/2/keyof-types.html),
+[`keyof`](https://www.typescriptlang.org/docs/handbook/2/keyof-types.html)
 
 [`extends Type ? IfTrue : IfFalse`](https://www.typescriptlang.org/docs/handbook/2/conditional-types.html#inferring-within-conditional-types)
 
@@ -180,7 +183,7 @@ Classes
 
 }
 
-### Properties from JS
+### Properties present in JS
 
 {
 
