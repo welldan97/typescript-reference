@@ -4,6 +4,8 @@ theme: minima
 relative_links:
   enabled: true
   collections: true
+title: TypeScript Reference for JS developers
 markdown: GFM
+description: Glossary of keywords, operators, statements and directives 
 include:
   - README.md
