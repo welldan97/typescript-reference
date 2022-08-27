@@ -64,17 +64,19 @@ Complex Types
 
 Type and Interface Properties
 -----------------
+{
 
-[`property?: Type`](https://www.typescriptlang.org/docs/handbook/2/objects.html#optional-properties)
+&nbsp;&nbsp;[`property?: Type`](https://www.typescriptlang.org/docs/handbook/2/objects.html#optional-properties)
 
-[`readonly property: Type`](https://www.typescriptlang.org/docs/handbook/2/objects.html#readonly-properties)
+&nbsp;&nbsp;[`readonly property: Type`](https://www.typescriptlang.org/docs/handbook/2/objects.html#readonly-properties)
 
-[`(...args): Type`](https://www.typescriptlang.org/docs/handbook/2/functions.html#call-signatures)
+&nbsp;&nbsp;[`(...args): Type`](https://www.typescriptlang.org/docs/handbook/2/functions.html#call-signatures)
 
-[`new(s: Type)`](https://www.typescriptlang.org/docs/handbook/2/functions.html#construct-signatures)
+&nbsp;&nbsp;[`new(s: Type)`](https://www.typescriptlang.org/docs/handbook/2/functions.html#construct-signatures)
 
-[`[key: Type]: Type;`](https://www.typescriptlang.org/docs/handbook/2/objects.html#index-signatures)
+&nbsp;&nbsp;[`[key: Type]: Type;`](https://www.typescriptlang.org/docs/handbook/2/objects.html#index-signatures)
 
+}
 
 Functions
 ---------
@@ -124,18 +126,21 @@ Type Manipulation
 
 ### Mapped Types
 
-[`[Property in keyof Type]: Type;`](https://www.typescriptlang.org/docs/handbook/2/mapped-types.html)
+{
 
-[`-readonly [Property in keyof Type]: Type[Property];`](https://www.typescriptlang.org/docs/handbook/2/mapped-types.html#mapping-modifiers)
+&nbsp;&nbsp;[`[Property in keyof Type]: Type;`](https://www.typescriptlang.org/docs/handbook/2/mapped-types.html)
 
-[`readonly [Property in keyof Type]: Type[Property];`](https://www.typescriptlang.org/docs/handbook/2/mapped-types.html#mapping-modifiers)
+&nbsp;&nbsp;[`-readonly [Property in keyof Type]: Type[Property];`](https://www.typescriptlang.org/docs/handbook/2/mapped-types.html#mapping-modifiers)
 
-[`[Property in keyof Type]-?: Type[Property];`](https://www.typescriptlang.org/docs/handbook/2/mapped-types.html#mapping-modifiers)
+&nbsp;&nbsp;[`readonly [Property in keyof Type]: Type[Property];`](https://www.typescriptlang.org/docs/handbook/2/mapped-types.html#mapping-modifiers)
 
-[`[Property in keyof Type]?: Type[Property];`](https://www.typescriptlang.org/docs/handbook/2/mapped-types.html#mapping-modifiers)
+&nbsp;&nbsp;[`[Property in keyof Type]-?: Type[Property];`](https://www.typescriptlang.org/docs/handbook/2/mapped-types.html#mapping-modifiers)
 
-[`[Properties in keyof Type as NewKeyType]: Type[Properties]`](https://www.typescriptlang.org/docs/handbook/2/mapped-types.html#key-remapping-via-as)
+&nbsp;&nbsp;[`[Property in keyof Type]?: Type[Property];`](https://www.typescriptlang.org/docs/handbook/2/mapped-types.html#mapping-modifiers)
 
+&nbsp;&nbsp;[`[Properties in keyof Type as NewKeyType]: Type[Properties]`](https://www.typescriptlang.org/docs/handbook/2/mapped-types.html#key-remapping-via-as)
+
+}
 
 Generics
 --------
@@ -157,35 +162,47 @@ Classes
 
 ### Properties
 
-[`property?: Type`](https://www.typescriptlang.org/docs/handbook/2/classes.html#this-based-type-guards)
+{
 
-[`property!: Type`](https://www.typescriptlang.org/docs/handbook/2/classes.html#fields)
+&nbsp;&nbsp;[`property?: Type`](https://www.typescriptlang.org/docs/handbook/2/classes.html#this-based-type-guards)
 
-[`readonly property: Type`](https://www.typescriptlang.org/docs/handbook/2/classes.html#readonly)
+&nbsp;&nbsp;[`property!: Type`](https://www.typescriptlang.org/docs/handbook/2/classes.html#fields)
 
-[`[key: Type]: Type`](https://www.typescriptlang.org/docs/handbook/2/classes.html#index-signatures)
+&nbsp;&nbsp;[`readonly property: Type`](https://www.typescriptlang.org/docs/handbook/2/classes.html#readonly)
 
-[`private property: Type`](https://www.typescriptlang.org/docs/handbook/2/classes.html#private)
+&nbsp;&nbsp;[`[key: Type]: Type`](https://www.typescriptlang.org/docs/handbook/2/classes.html#index-signatures)
 
-[`protected property: Type`](https://www.typescriptlang.org/docs/handbook/2/classes.html#protected)
+&nbsp;&nbsp;[`private property: Type`](https://www.typescriptlang.org/docs/handbook/2/classes.html#private)
 
-[`declare property: Type`](https://www.typescriptlang.org/docs/handbook/2/classes.html#type-only-field-declarations)
+&nbsp;&nbsp;[`protected property: Type`](https://www.typescriptlang.org/docs/handbook/2/classes.html#protected)
+
+&nbsp;&nbsp;[`declare property: Type`](https://www.typescriptlang.org/docs/handbook/2/classes.html#type-only-field-declarations)
+
+}
 
 ### Properties from JS
 
-[`#property: Type`](https://www.typescriptlang.org/docs/handbook/2/classes.html#caveats)
+{
 
-[`get property(): Type`](https://www.typescriptlang.org/docs/handbook/2/classes.html#getters--setters)
+&nbsp;&nbsp;[`#property: Type`](https://www.typescriptlang.org/docs/handbook/2/classes.html#caveats)
 
-[`set property(...args): Type`](https://www.typescriptlang.org/docs/handbook/2/classes.html#getters--setters)
+&nbsp;&nbsp;[`get property(): Type`](https://www.typescriptlang.org/docs/handbook/2/classes.html#getters--setters)
 
-[`static property: Type`](https://www.typescriptlang.org/docs/handbook/2/classes.html#static-members)
+&nbsp;&nbsp;[`set property(...args): Type`](https://www.typescriptlang.org/docs/handbook/2/classes.html#getters--setters)
 
-[`static {...}`](https://www.typescriptlang.org/docs/handbook/2/classes.html#static-blocks-in-classes)
+&nbsp;&nbsp;[`static property: Type`](https://www.typescriptlang.org/docs/handbook/2/classes.html#static-members)
+
+&nbsp;&nbsp;[`static {...}`](https://www.typescriptlang.org/docs/handbook/2/classes.html#static-blocks-in-classes)
+
+}
 
 ### Constructor Parameter Properties
 
-[`constructor(parameter arg: Type)`](https://www.typescriptlang.org/docs/handbook/2/classes.html#parameter-properties)
+{
+
+&nbsp;&nbsp;[`constructor(parameter arg: Type)`](https://www.typescriptlang.org/docs/handbook/2/classes.html#parameter-properties)
+
+}
 
 ### Extension
 
@@ -197,14 +214,16 @@ Classes
 
 ### Decorators
 
-[`@decorator class Class`](https://www.typescriptlang.org/docs/handbook/decorators.html#class-decorators)
+[`@decorator class Class`](https://www.typescriptlang.org/docs/handbook/decorators.html#class-decorators) {
 
-[`@decorator property(...args) {...}`](https://www.typescriptlang.org/docs/handbook/decorators.html#class-decorators)
+&nbsp;&nbsp;[`@decorator() property`](https://www.typescriptlang.org/docs/handbook/decorators.html#property-decorators)
 
-[`@decorator() property`](https://www.typescriptlang.org/docs/handbook/decorators.html#property-decorators)
+&nbsp;&nbsp;[`@decorator property(...args) {...}`](https://www.typescriptlang.org/docs/handbook/decorators.html#class-decorators)
 
-[`property(@decorator arg: Type) {...}`](https://www.typescriptlang.org/docs/handbook/decorators.html#parameter-decorators)
 
+&nbsp;&nbsp;[`property(@decorator arg: Type) {...}`](https://www.typescriptlang.org/docs/handbook/decorators.html#parameter-decorators)
+
+}
 
 Utility Types
 -------------
