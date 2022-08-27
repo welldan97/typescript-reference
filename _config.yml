@@ -5,5 +5,7 @@ relative_links:
   enabled: true
   collections: true
 remote_theme: pages-themes/cayman@v0.2.0
+title: TypeScript Reference for JS developers
+description: Glossary of keywords, operators, statements and directives 
 include:
   - README.md
