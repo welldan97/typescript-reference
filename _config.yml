@@ -1,7 +1,6 @@
 plugins:
   - jekyll-relative-links
-  - jekyll-remote-theme
-remote_theme: pages-themes/modernist@v0.2.0
+theme: minima
 relative_links:
   enabled: true
   collections: true
