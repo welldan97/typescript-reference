@@ -4,6 +4,6 @@ plugins:
 relative_links:
   enabled: true
   collections: true
-remote_theme: pages-themes/time-machine@v0.2.0
+remote_theme: pages-themes/cayman@v0.2.0
 include:
   - README.md
