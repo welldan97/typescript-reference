@@ -1,6 +1,7 @@
 plugins:
   - jekyll-relative-links
-theme: minima
+  - jekyll-remote-theme  
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 relative_links:
   enabled: true
   collections: true
