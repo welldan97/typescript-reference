@@ -1,3 +1,7 @@
+---
+title: TypeScript Reference for JS developers
+---
+
 # TypeScript Reference for JS developers<br/><br/>Glossary of keywords, operators, statements and directives<br/>
 
 - [TypeScript Reference for JS developers<br/><br/>Glossary of keywords, operators, statements and directives<br/>](#typescript-reference-for-js-developersglossary-of-keywords-operators-statements-and-directives)
