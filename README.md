@@ -114,6 +114,8 @@ Type Manipulation
 
 [`extends Type ? IfTrue : IfFalse`](https://www.typescriptlang.org/docs/handbook/2/conditional-types.html#inferring-within-conditional-types)
 
+[`infer`](https://www.typescriptlang.org/docs/handbook/release-notes/typescript-2-8.html#type-inference-in-conditional-types)
+
 ### Extension
 
 [`&`](https://www.typescriptlang.org/docs/handbook/2/objects.html#intersection-types),
