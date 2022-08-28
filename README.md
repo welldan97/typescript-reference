@@ -44,7 +44,7 @@ Built-in Type Primitives
 [`string`](https://www.typescriptlang.org/docs/handbook/2/everyday-types.html),
 [`number`](https://www.typescriptlang.org/docs/handbook/2/everyday-types.html),
 [`undefined`](https://www.typescriptlang.org/docs/handbook/2/everyday-types.html),
-[`null`](https://www.typescriptlang.org/docs/handbook/2/everyday-types.html),
+[`null`](https://www.typescriptlang.org/docs/handbook/2/everyday-types.html)
 
 [`bigint`](https://www.typescriptlang.org/docs/handbook/2/everyday-types.html),
 [`symbol`](https://www.typescriptlang.org/docs/handbook/symbols.html),
@@ -53,19 +53,19 @@ Built-in Type Primitives
 [`any`](https://www.typescriptlang.org/docs/handbook/2/everyday-types.html),
 [`unknown`](https://www.typescriptlang.org/docs/handbook/2/everyday-types.html),
 [`never`](https://www.typescriptlang.org/docs/handbook/2/everyday-types.html),
-[`void`](https://www.typescriptlang.org/docs/handbook/2/everyday-types.html),
+[`void`](https://www.typescriptlang.org/docs/handbook/2/everyday-types.html)
 
 
 Complex Types
 -------------
 
-[`|`](https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#union-types),
+[`|`](https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#union-types)
 
 [`Array[]`](https://www.typescriptlang.org/docs/handbook/basic-types.html#array),
-[`Tuple[]`](https://www.typescriptlang.org/docs/handbook/2/objects.html#tuple-types),
+[`Tuple[]`](https://www.typescriptlang.org/docs/handbook/2/objects.html#tuple-types)
 
 [`type`](https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#type-aliases),
-[`interface`](https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#interfaces),
+[`interface`](https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#interfaces)
 
 [`enum`](https://www.typescriptlang.org/docs/handbook/enums.html)
 
