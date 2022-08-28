@@ -45,23 +45,28 @@ Built-in Type Primitives
 [`number`](https://www.typescriptlang.org/docs/handbook/2/everyday-types.html),
 [`undefined`](https://www.typescriptlang.org/docs/handbook/2/everyday-types.html),
 [`null`](https://www.typescriptlang.org/docs/handbook/2/everyday-types.html),
+
+[`bigint`](https://www.typescriptlang.org/docs/handbook/2/everyday-types.html),
+[`symbol`](https://www.typescriptlang.org/docs/handbook/symbols.html),
+[`unique symbol`](https://www.typescriptlang.org/docs/handbook/symbols.html#unique-symbol)
+
 [`any`](https://www.typescriptlang.org/docs/handbook/2/everyday-types.html),
 [`unknown`](https://www.typescriptlang.org/docs/handbook/2/everyday-types.html),
 [`never`](https://www.typescriptlang.org/docs/handbook/2/everyday-types.html),
 [`void`](https://www.typescriptlang.org/docs/handbook/2/everyday-types.html),
-[`bigint`](https://www.typescriptlang.org/docs/handbook/2/everyday-types.html),
-[`symbol`](https://www.typescriptlang.org/docs/handbook/symbols.html),
-[`unique symbol`](https://www.typescriptlang.org/docs/handbook/symbols.html#unique-symbol)
 
 
 Complex Types
 -------------
 
 [`|`](https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#union-types),
+
 [`Array[]`](https://www.typescriptlang.org/docs/handbook/basic-types.html#array),
 [`Tuple[]`](https://www.typescriptlang.org/docs/handbook/2/objects.html#tuple-types),
+
 [`type`](https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#type-aliases),
 [`interface`](https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#interfaces),
+
 [`enum`](https://www.typescriptlang.org/docs/handbook/enums.html)
 
 
@@ -227,7 +232,7 @@ Classes
 
 &nbsp;&nbsp;[`@decorator get accessor() {...}`](https://www.typescriptlang.org/docs/handbook/decorators.html#accessor-decorators)
 
-&nbsp;&nbsp;[`@decorator set accessor() {...}`](https://www.typescriptlang.org/docs/handbook/decorators.html#accessor-decorators)
+&nbsp;&nbsp;[`@decorator set accessor(value) {...}`](https://www.typescriptlang.org/docs/handbook/decorators.html#accessor-decorators)
 
 }
 
