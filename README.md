@@ -221,10 +221,13 @@ Classes
 
 &nbsp;&nbsp;[`@decorator() property`](https://www.typescriptlang.org/docs/handbook/decorators.html#property-decorators)
 
-&nbsp;&nbsp;[`@decorator property(...args) {...}`](https://www.typescriptlang.org/docs/handbook/decorators.html#class-decorators)
+&nbsp;&nbsp;[`@decorator method(...args) {...}`](https://www.typescriptlang.org/docs/handbook/decorators.html#method-decorators)
 
+&nbsp;&nbsp;[`method(@decorator arg: Type) {...}`](https://www.typescriptlang.org/docs/handbook/decorators.html#parameter-decorators)
 
-&nbsp;&nbsp;[`property(@decorator arg: Type) {...}`](https://www.typescriptlang.org/docs/handbook/decorators.html#parameter-decorators)
+&nbsp;&nbsp;[`@decorator get accessor() {...}`](https://www.typescriptlang.org/docs/handbook/decorators.html#accessor-decorators)
+
+&nbsp;&nbsp;[`@decorator set accessor() {...}`](https://www.typescriptlang.org/docs/handbook/decorators.html#accessor-decorators)
 
 }
 
