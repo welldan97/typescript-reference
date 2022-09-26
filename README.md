@@ -239,6 +239,8 @@ Classes
 Utility Types
 -------------
 
+[`Awaited<Type>`](https://www.typescriptlang.org/docs/handbook/utility-types.html#awaitedtype)
+
 [`Partial<Type>`](https://www.typescriptlang.org/docs/handbook/utility-types.html#partialtype)
 
 [`Required<Type>`](https://www.typescriptlang.org/docs/handbook/utility-types.html#requiredtype)
